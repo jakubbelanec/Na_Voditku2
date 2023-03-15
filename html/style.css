@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Novecento WideUltraLight';
+  letter-spacing: 2px;
+}
+
+@font-face{
+  font-family: 'Novecento WideUltraLight';
+  src: url(fonts/Novecento\ WideUltraLight.otf);
+}
+
+.logo {
+  text-align: center
+}
+
+.logo img {
+  width: 50%;
+}
+
+nav {
+  text-align: center;
+  background-color: #C20E50;
+}
+
+nav ul li  {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+
+}
+
+
+nav li a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.selection-popis {
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: white;
+  height: 200vh;
+}
+
+.selection-popis h1 {
+  text-align: center;
+}
+
+.selection-partneri {
+  display: block;
+  text-align: center;
+  background-color: #C20E50;
+  color: white;
+  height: 20vh;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.selection-tel{
+
+}
+.selection-email{
+
+}
