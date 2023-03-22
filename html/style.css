@@ -12,7 +12,9 @@
 }
 
 .logo {
-  text-align: center
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .logo img {
@@ -44,14 +46,16 @@ nav li a:hover {
 }
 
 .selection-popis {
+  padding-top: 30px;
   padding-left: 20%;
   padding-right: 20%;
   background-color: white;
-  height: 200vh;
+  height: 100vh;
 }
 
 .selection-popis h1 {
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .selection-partneri {
@@ -59,7 +63,9 @@ nav li a:hover {
   text-align: center;
   background-color: #C20E50;
   color: white;
-  height: 20vh;
+  height: 30vh;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 footer {
@@ -67,9 +73,17 @@ footer {
   color: white;
 }
 
-.selection-tel{
-
+footer h1{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 30px;
 }
-.selection-email{
 
+footer p{
+  font-size: 25px;
 }
+
+img{
+  display: inline-block;
+}
+
