@@ -6,7 +6,7 @@
   letter-spacing: 2px;
 }
 
-@font-face{
+@font-face{;
   font-family: 'Novecento WideUltraLight';
   src: url(fonts/Novecento\ WideUltraLight.otf);
 }
@@ -45,7 +45,7 @@ nav li a:hover {
   background-color: rgb(0, 0, 0);
 }
 
-.selection-popis {
+.section_popis {
   padding-top: 30px;
   padding-left: 20%;
   padding-right: 20%;
@@ -53,12 +53,12 @@ nav li a:hover {
   height: 100vh;
 }
 
-.selection-popis h1 {
+.section_popis h1 {
   text-align: center;
   padding-bottom: 10px;
 }
 
-.selection-partneri {
+.section_partneri {
   display: block;
   text-align: center;
   background-color: #C20E50;
@@ -71,6 +71,12 @@ nav li a:hover {
 footer {
   background-color: black;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-right: 20%;
+
 }
 
 footer h1{
@@ -85,5 +91,22 @@ footer p{
 
 img{
   display: inline-block;
+}
+
+.kontakt {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.social_media {
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
