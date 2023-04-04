@@ -5,16 +5,22 @@
   font-family: 'Novecento WideUltraLight';
   letter-spacing: 2px;
 }
-
-@font-face{;
+@font-face {
   font-family: 'Novecento WideUltraLight';
   src: url(fonts/Novecento\ WideUltraLight.otf);
 }
+
+/* @font-face{;
+  font-family: 'Novecento WideUltraLight';
+  src: url(fonts/Novecento\ WideUltraLight.otf);
+} */
 
 .logo {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 .logo img {
@@ -50,7 +56,7 @@ nav li a:hover {
   padding-left: 20%;
   padding-right: 20%;
   background-color: white;
-  height: 100vh;
+  height: auto;
 }
 
 .section_popis h1 {
@@ -95,10 +101,11 @@ img{
 
 .kontakt {
   padding: 10px;
-  display: flex;
+  display: flex; 
   align-items: center;
   gap: 10px;
-
+  max-width: 100%;
+  height: auto;
 }
 
 .social_media {
@@ -108,5 +115,7 @@ img{
   display: flex;
   align-items: center;
   cursor: pointer;
+  max-width: 100%;
+  height: auto;
 }
 
