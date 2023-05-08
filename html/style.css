@@ -16,6 +16,9 @@
   padding-bottom: 20px;
   max-width: 100%;
   height: auto;
+  cursor: pointer;
+
+
 }
 
 .logo img {
@@ -33,20 +36,14 @@ p {
 
 /* NAV */
 
-nav {
+.nav {
   text-align: center;
   background-color: #C20E50;
   display: block;
-  padding: 20px;
+  padding: 3vh;
 }
 
-
-nav ul li  {
-  display: inline-block;
-}
-
-nav li a {
-  display: block;
+.nav a {
   padding: 15px 20px;
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -54,25 +51,49 @@ nav li a {
 
 }
 
-nav li a:hover {
-  color: rgb(51, 248, 255);
-
+.nav a:hover {
+  color: black;
 }
-
-
 
 @media only screen and (max-width: 1090px) {
 
-  .section_popis{
-    padding-left: 10%;
-    padding-right: 50%;
+  .nav {
+    overflow: hidden;
+    background-color: #C20E50;
+    position: relative;
   }
+  
+  .nav #myLinks {
+    display: none;
+  }
+  
+  .nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .nav a.icon {
+    background: #C20E50;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .nav a:hover {
+    color: black;
+  }
+  
 
-  footer{
+  nav{
     flex-direction: column;
 
   }
 }
+
 
 
 
@@ -86,7 +107,7 @@ nav li a:hover {
   padding-right: 10%;
   background-color: white;
   height: auto;
-  padding-bottom: 10px;
+  padding-bottom: 10vh;
   display: flex;
   flex-direction: column;
 }
@@ -101,7 +122,7 @@ nav li a:hover {
   text-align: center;
   background-color: #C20E50;
   color: white;
-  height: 30vh;
+  height: 20vh;
   padding-top: 30px;
   padding-bottom: 10px;
 }
